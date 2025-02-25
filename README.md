@@ -1,5 +1,7 @@
 Simple docker container to run explicitly as amd64 so I can run old binary only slickedit I have on arm
 
+When I built this, I used the --platform linux/amd64
+
 ```
 #!/bin/bash
 # QT_X11_NO_MITSHM=1 fixes some issue where the X screen was coming up blank
